@@ -1,0 +1,15 @@
+username : mustafaag;
+i.d:318680253 , name:Mustafa Abu Ghannam
+
+this programe will try to mimic some of the function of a Hard-Disk managmentSystem,
+The Hard-Disk in our Case will be a single file of size 256 bit called (DIS_SIM_FILE)
+and each (virtual file) will have his virsual file size (some direct blocks and other single_inDirect blocks)
+the single_inDirect file will store the index of onther (Block_size blocks), so actually each virtual file can
+get to a size equal to (block_size + directBlocks) * block_size Bits.
+
+how to compile:
+1)extract the FinalTask.cpp file to a folder
+2)open the folder which the files above are extracted to 
+3)open the folder in the terminal 
+4)write : make command in the terminal
+5) you must give the grograme an existed programe filePath so the prgorame can work.
